@@ -1,0 +1,33 @@
+.page-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 110rem;
+    height: 33rem;
+    border: 0.5px solid rgb(214, 214, 214);
+    text-align: center;
+    padding: 0.938rem;
+    margin: 0.938rem;
+    /* border: none; */
+    border-radius: 1.958rem;
+    /* box-shadow: 0.063rem 0 0.9rem 0 rgb(100, 100, 100); */
+}
+
+.same_line{
+    width: 34rem;
+}
+
+.colspan-2{
+    width: 70rem;
+}
+
+@media only screen and (max-width:1400px) and (min-width:1024px){
+    .card{
+        width:72.5rem;
+        height: 32.9rem;
+        padding: 0;
+    }
+
+}
